@@ -808,7 +808,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 html { font-size: 88%; }
 
 @media all and (max-width: 768px) { html { font-size: 81.25%; } }
-body { font-size: 1em; line-height: 1.65714286em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "Poppins", sans-serif; color: #484848; }
+body { font-size: 1em; line-height: 1.65714286em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: "Poppins", sans-serif; color: #fff1b9; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Poppins", sans-serif; color: #1f1f1f; margin: 0; letter-spacing: 0.5px; }
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small { font-weight: 100; }
@@ -839,7 +839,7 @@ h6:not(:last-child), .h6:not(:last-child) { margin-bottom: 6px; }
   .lead { font-size: 1.35714286em; line-height: 1.68421053em; } }
 .display-4 { font-weight: 400; }
 
-p { font-size: 1rem; font-style: normal; font-weight: 400; text-transform: none; line-height: 1.7; letter-spacing: 0; color: #777777; font-family: "Poppins", sans-serif; }
+p { font-size: 1rem; font-style: normal; font-weight: 400; text-transform: none; line-height: 1.7; letter-spacing: 0; color: #ffffff; font-family: "Poppins", sans-serif; }
 
 ul.bullets { list-style: inside; }
 
@@ -2021,7 +2021,7 @@ Helpers
 /* ---------------------------------------------------------------- FOOTER
 -----------------------------------------------------------------*/
 #footer { display: block; position: relative; background-color: #520e1d; font-size: 14px; line-height: 32px; font-weight: 400; font-family: "Poppins", sans-serif; }
-#footer a:not(.btn) { color: #484848; }
+#footer a:not(.btn) { color: #ffffff; }
 #footer p { font-family: "Poppins", sans-serif; }
 #footer a:not(.btn) { font-weight: 400; }
 #footer .footer-content { padding: 60px 0 40px 0; }

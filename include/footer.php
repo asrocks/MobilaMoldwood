@@ -30,10 +30,10 @@
                 <div class="col-lg-5">
                     <div class="widget">
                         <div class="widget-title">moldwood - mobila din lemn masiv</div>
-                        <p class="mb-5">
+                        <p class="mb-5" >
                             Copyright © 2020. MOLDWOOD.RO<br>
                             Toate drepturile rezervate.<br>
-                            Website realizat de <a href="http://www.webitech.ro" target="_blank"> WEBITECH.</a></p>
+                            Website realizat de <a href="http://www.webitech.ro" target="_blank" style = "color: #fff1b9" > WEBITECH.</a></p>
                         
                     </div>
                 </div>
