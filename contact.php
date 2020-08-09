@@ -8,7 +8,7 @@ print("
         <section>
             <div class='container'>
                 <div class='row'>
-                    <div class='col-lg-6'>
+                    <div class='col-lg-10'>
                         <h3 class='text-uppercase'>Contacteaza-ne</h3>
                         <div class='m-t-30'>
                             <form class='widget-contact-form' novalidate action='include/contact-form.php' method='post'><!-- role='form' --> 
@@ -17,25 +17,27 @@ print("
                                         <label for='name'>Numele dumneavoastra</label>
                                         <input type='text' aria-required='true' name='name' required class='form-control required name' placeholder='Introduceti numele dvs.'>
                                     </div>
+                                    
+                                    <div class='form-group col-md-6'>
+                                        <label for='phone'>Numar de telefon</label>
+                                        <input type='text' aria-required='true' name='phone' required class='form-control required phone' placeholder='Introduceti un numar de telefon'>
+                                    </div>
+                                
                                 </div>
                                 <div class='row'>
                                     <div class='form-group col-md-6'>
                                         <label for='email'>Adresa de email</label>
                                         <input type='email' aria-required='true' name='email' required class='form-control required email' placeholder='Introduceti o adresa de email'>
                                     </div>
-                                </div>
-                                <div class='row'>
+                                    
                                     <div class='form-group col-md-6'>
                                         <label for='adresa'>Adresa dvs.</label>
                                         <input type='text' aria-required='true' name='adresa' required class='form-control required email' placeholder='Introduceti o adresa de domiciliu'>
                                     </div>
+                                
                                 </div>
-                                <div class='row'>
-                                    <div class='form-group col-md-6'>
-                                        <label for='phone'>Numar de telefon</label>
-                                        <input type='text' aria-required='true' name='phone' required class='form-control required phone' placeholder='Introduceti un numar de telefon'>
-                                    </div>
-                                </div>
+                               
+                                
                                 <div class='row'>
                                     <div class='form-group col-md-12'>
                                         <label for='subject'>Subiect</label>
