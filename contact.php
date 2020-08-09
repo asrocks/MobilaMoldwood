@@ -8,7 +8,7 @@ print("
         <section>
             <div class='container'>
                 <div class='row'>
-                    <div class='col-lg-10'>
+                    <div class='col-lg-6'>
                         <h3 class='text-uppercase'>Contacteaza-ne</h3>
                         <div class='m-t-30'>
                             <form class='widget-contact-form' novalidate action='include/contact-form.php' method='post'><!-- role='form' --> 
@@ -22,6 +22,7 @@ print("
                                         <label for='phone'>Numar de telefon</label>
                                         <input type='text' aria-required='true' name='phone' required class='form-control required phone' placeholder='Introduceti un numar de telefon'>
                                     </div>
+                                    
                                 
                                 </div>
                                 <div class='row'>
@@ -57,37 +58,24 @@ print("
                             </div>
                         </div>
                     <div class='col-lg-6'>
-                        <h3 class='text-uppercase'>Informatiile magazinului</h3>
-                        <div class='row'>
-                            <div class='col-lg-6'>
-                                <ul>
-                                    <li>
-                                        <address>
-                                            <strong>Showroom Moldwood</strong><br>
-                                            <a href='https://www.google.com/maps/place/MoldWood/@44.4162291,26.0409246,15z/data=!4m5!3m4!1s0x0:0xeb2a8164eecfe25e!8m2!3d44.4162291!4d26.0409246'>Bulevardul Ghencea 126-132, București 061699</a><br>
-                                        </address>
-                                    </li>
-                                    <li>
-                                        <address>
-                                            <strong>Numar de telefon</strong>
-                                            <abbr title=''>P:</h4> 0731318924
-                                        </address>
-                                    </li>
-                                    <li>
-                                        <address>
-                                            <strong class='social-facebook'><i class='fab fa-facebook-f'></i></strong>
-                                            <a href='https://www.facebook.com/moldwood/'>Pagina noastra de Facebook</a>
-                                        </address>
-                                    </li>
-                                    <li>
-                                        <address>
-                                            <strong class='social-instagram'><i class='fab fa-instagram'></i></strong>
-                                            <a href='https://www.instagram.com/moldwood.ro/?hl=ro'>Pagina noastra de Instagram</a>
-                                        </address>
-                                    </li>
-                                </ul>
-                            </div>
+                    <h3 class='text-uppercase' style= 'text-align: left'>&nbsp &nbsp Informatiile magazinului</h3>
+                    
+                    <!--Contact us-->
+                        <div class='widget clearfix widget-contact-us p-cb'>
+                            <ul class='list-icon' style = 'color: black'>
+                                <a href = 'https://www.google.com/maps/place/MoldWood/@44.4162291,26.0409246,15z/data=!4m5!3m4!1s0x0:0xeb2a8164eecfe25e!8m2!3d44.4162291!4d26.0409246'><li><i class='icon-map-pin'></i>
+                                    <strong>Address:</strong> Bulevardul Ghencea 126-132, <br>
+                                    &nbsp &nbsp București 061699</li></a>
+                                <li><i class='icon-phone'></i><strong>Phone:</strong> 0731 318 924 </li>
+                                <li><i class='icon-mail'></i><strong>Email:</strong> <a href='mailto:info@moldwood.ro'>info@moldwood.ro</a>
+                                </li>
+                                <li><i class='icon-clock'></i>Monday - Friday: <strong>08:00 - 20:00</strong>
+                                    <br>&nbsp Saturday: <strong>10:00 - 17:00</strong>
+                                    <br>&nbsp Sunday: <strong>10:00 - 15:00</strong>
+                                </li>
+                            </ul>
                         </div>
+                        <!--End: Contact us-->
                     </div>
                 </div>
             </div>

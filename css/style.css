@@ -2580,7 +2580,7 @@ div.dataTables_wrapper div.dataTables_length select { min-width: 60px; }
 .p-countdown .p-countdown-show { display: none; }
 
 /* Box */
-.p-cb { position: relative; margin: 12px 0; background-color: #fff; -webkit-box-shadow: 0 6px 38px rgba(0, 0, 0, 0.05); box-shadow: 0 6px 38px rgba(0, 0, 0, 0.05); border-radius: 5px; padding: 20px; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; border: 1px solid #ececec; cursor: pointer; }
+.p-cb { position: relative; margin: 12px 0; background-color: none !important ; /* am comentat pt pagina contact.Pt a folosi aceasta proprietate folositi style/ -webkit-box-shadow: 0 6px 38px rgba(0, 0, 0, 0.05); box-shadow: 0 6px 38px rgba(0, 0, 0, 0.05);*/ border-radius: 5px; padding: 20px; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; border: 0px solid #ececec; cursor: pointer; }
 .p-cb a { color: #484848; }
 .p-cb .cb-icon { float: left; }
 .p-cb .cb-icon i { font-size: 34px; }
