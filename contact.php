@@ -69,9 +69,9 @@ print("
                                 <li><i class='icon-phone'></i><strong>Phone:</strong> 0731 318 924 </li>
                                 <li><i class='icon-mail'></i><strong>Email:</strong> <a href='mailto:info@moldwood.ro'>info@moldwood.ro</a>
                                 </li>
-                                <li><i class='icon-clock'></i>Monday - Friday: <strong>08:00 - 20:00</strong>
-                                    <br>&nbsp Saturday: <strong>10:00 - 17:00</strong>
-                                    <br>&nbsp Sunday: <strong>10:00 - 15:00</strong>
+                                <li><i class='icon-clock'></i>Luni - Vineri: <strong>08:00 - 20:00</strong>
+                                    <br>&nbsp Sambata: <strong>10:00 - 17:00</strong>
+                                    <br>&nbsp Duminica: <strong>10:00 - 15:00</strong>
                                 </li>
                             </ul>
                         </div>
