@@ -1,0 +1,4 @@
+[09-Aug-2020 12:21:22 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined method WebitechPDFMaker::getFilename() in /home/moldwood/mobila.moldwood.ro/public/contact.php:125
+Stack trace:
+#0 {main}
+  thrown in /home/moldwood/mobila.moldwood.ro/public/contact.php on line 125

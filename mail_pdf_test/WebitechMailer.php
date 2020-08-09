@@ -9,20 +9,20 @@ class WebitechMailer{
     public function setDestAdress($destAdressInp){
         $this->destAdress = $destAdressInp;
     }
-    public function sendMail($fName, $lName, $filename){
+    public function sendMail($name, $subject, $filename){
         ini_set('SMTP', $this->mailServer);
         $to = $this->destAdress;
 
         $from = $this->mailAdress;
         $fromName = 'Webitech Mail Service';
 
-        $subject = 'Cerere de oferta din partea domnului/doamnei '.$fName.' '.$lName;
+        $subject = $subject.' din partea domnului/doamnei '.$name;
 
         $file = __DIR__."/".$filename.".pdf";
 
         $htmlContent = ' 
     <h3>E-Mail generat automat impreuna cu PDF de raspuns</h3> 
-    <p>Acest mail v-a fost trimis automat impreuna cu un PDF atasat automat.</p> 
+    <p>Acest mail v-a fost trimis automat impreuna cu un PDF generat automat.</p> 
 ';
 
         $headers = "From: $fromName"." <".$from.">";
