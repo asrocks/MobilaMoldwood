@@ -11,7 +11,7 @@ print("
                     <div class='col-lg-6'>
                         <h3 class='text-uppercase'>Contacteaza-ne</h3>
                         <div class='m-t-30'>
-                            <form class='widget-contact-form' novalidate action='include/contact-form.php' method='post'><!-- role='form' --> 
+                            <form class='widget-contact-form' method='post'><!-- novalidate action='include/contact-form.php' role='form' --> 
                                 <div class='row'>
                                    <div class='form-group col-md-6'>
                                         <label for='name'>Numele dumneavoastra</label>
@@ -22,8 +22,6 @@ print("
                                         <label for='phone'>Numar de telefon</label>
                                         <input type='text' aria-required='true' name='phone' required class='form-control required phone' placeholder='Introduceti un numar de telefon'>
                                     </div>
-                                    
-                                
                                 </div>
                                 <div class='row'>
                                     <div class='form-group col-md-6'>
@@ -35,10 +33,7 @@ print("
                                         <label for='adresa'>Adresa dvs.</label>
                                         <input type='text' aria-required='true' name='adresa' required class='form-control required email' placeholder='Introduceti o adresa de domiciliu'>
                                     </div>
-                                
                                 </div>
-                               
-                                
                                 <div class='row'>
                                     <div class='form-group col-md-12'>
                                         <label for='subject'>Subiect</label>
@@ -107,7 +102,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) &
 
 
     $witMailer = new WebitechMailer();
-    $witMailer ->setDestAdress('radu.lainiceanu@gmail.com');
+    $witMailer ->setDestAdress('office@webitech.ro');
 
     $witPDFMaker = new WebitechPDFMaker();
     $witPDFMaker->makePDF($clientName, $clientAddress, $clientPhone, $clientEmail, $clientSubj, $clientMess, 'contact form');
